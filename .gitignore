@@ -4,6 +4,7 @@ __pycache__/
 *$py.class
 research/
 artifacts/
+logs/
 
 # C extensions
 *.so
