@@ -28,17 +28,7 @@ class ConfigurationManager:
         )
 
         return data_ingestion_config
-
-class ConfigurationManager:
-    def __init__(
-        self,
-        config_filepath = CONFIG_FILE_PATH,
-        params_filepath = PARAMS_FILE_PATH):
-
-        self.config = read_yaml(config_filepath)
-        self.params = read_yaml(params_filepath)
-
-        create_directories([self.config.artifacts_root])
+        
 
     def get_prepare_base_model_config(self) -> PrepareBaseModelConfig:
         config = self.config.prepare_base_model
