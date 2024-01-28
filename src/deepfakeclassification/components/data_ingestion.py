@@ -1,9 +1,9 @@
 import os
 import zipfile
 import gdown
-from tumorclassification import logger
-from tumorclassification.utils.common import get_size
-from tumorclassification.entity.config_entity import DataIngestionConfig
+from deepfakeclassification import logger
+from deepfakeclassification.utils.common import get_size
+from deepfakeclassification.entity.config_entity import DataIngestionConfig
 
 class DataIngestion:
     def __init__(self, config: DataIngestionConfig):

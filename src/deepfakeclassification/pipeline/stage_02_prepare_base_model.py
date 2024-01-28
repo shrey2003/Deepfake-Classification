@@ -1,6 +1,6 @@
-from tumorclassification.config.configuration import ConfigurationManager
-from tumorclassification.components.prepare_base_model import PrepareBaseModel 
-from tumorclassification import logger
+from deepfakeclassification.config.configuration import ConfigurationManager
+from deepfakeclassification.components.prepare_base_model import PrepareBaseModel 
+from deepfakeclassification import logger
 import os
 
 STAGE_NAME = "Prepare Base Model Stage"

@@ -6,9 +6,9 @@ with open("README.md", "r", encoding="utf-8") as f:
 
 __version__ = "0.0.0"
 
-REPO_NAME = "Kidney-Tumor-Classification"
+REPO_NAME = "Deepfake-Classification"
 AUTHOR_USER_NAME = "shrey2003"
-SRC_REPO = "tumorclassification"
+SRC_REPO = "deepfakeclassification"
 AUTHOR_EMAIL = "shreymishra0307@gmail.com"
 
 
@@ -17,7 +17,7 @@ setuptools.setup(
     version=__version__,
     author=AUTHOR_USER_NAME,
     author_email=AUTHOR_EMAIL,
-    description="A small python package for Kidney Tumor Detection CNN app",
+    description="A small python package for DeepFake Detection CNN app",
     long_description=long_description,
     long_description_content="text/markdown",
     url=f"https://github.com/{AUTHOR_USER_NAME}/{REPO_NAME}",

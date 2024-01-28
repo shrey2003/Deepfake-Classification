@@ -1,6 +1,6 @@
-from tumorclassification.config.configuration import ConfigurationManager
-from tumorclassification.components.data_ingestion import DataIngestion
-from tumorclassification import logger
+from deepfakeclassification.config.configuration import ConfigurationManager
+from deepfakeclassification.components.data_ingestion import DataIngestion
+from deepfakeclassification import logger
 import os
 
 STAGE_NAME = "Data Ingestion Stage"

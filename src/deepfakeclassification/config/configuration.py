@@ -1,6 +1,6 @@
-from tumorclassification.constants import *
-from tumorclassification.utils.common import read_yaml, create_directories
-from tumorclassification.entity.config_entity import DataIngestionConfig, PrepareBaseModelConfig
+from deepfakeclassification.constants import *
+from deepfakeclassification.utils.common import read_yaml, create_directories
+from deepfakeclassification.entity.config_entity import DataIngestionConfig, PrepareBaseModelConfig
 
 class ConfigurationManager:
     def __init__(

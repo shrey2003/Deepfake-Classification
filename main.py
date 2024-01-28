@@ -1,5 +1,5 @@
-from tumorclassification import logger
-from tumorclassification.pipeline.stage_01_data_ingestion import DataIngestionTrainingPipeline
+from deepfakeclassification import logger
+from deepfakeclassification.pipeline.stage_01_data_ingestion import DataIngestionTrainingPipeline
 
 logger.info("Welcome to Kidney-Tumor Classification Project")
 
@@ -24,3 +24,4 @@ try:
 except Exception as e:
     logger.exception(e)
     raise e
+

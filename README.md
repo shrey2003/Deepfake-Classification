@@ -1,4 +1,4 @@
-# Disease-Classification
+# DeepFake-Classification
 
 ## Workflows
 
